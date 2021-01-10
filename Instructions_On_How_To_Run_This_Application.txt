@@ -1,0 +1,27 @@
+INSTRUCTIONS ON HOW TO RUN THIS APPLICATION
+
+Hardware Used:
+
+1- STM32F446RE NUCLEO board, Qty 1
+
+Software Used:
+
+1- IDE: Eclipse based System WorkBench (SW4STM32), Version 1.8 or later
+2- Serial Monitor: Tera Term, Version 4.104
+3- Onboard Programmer and Debugger for Nucleo board: ST-LINK/V2-1 Device Driver
+
+Wiring:
+
+None
+
+How to use this application:
+
+- First the corresponding source code needs to be loaded on the IDE, built, and flashed on Nucelo board.
+- Then connect Nucleo board to the PC via USB cable. 
+- Set the serial monitor to the correct SERIAL PORT and BAUD RATE (115200) in order to send and receive UART messages.
+- Make sure the LOCAL ECHO is turned on on the serial monitor
+- Reset the Nucleo board by pressing the reset button (black one).
+- The application will then run and display the main menu on the serial monitor for the user.
+
+
+
